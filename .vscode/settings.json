@@ -1,0 +1,93 @@
+{
+    "[python]": {
+        // 在读取和写入文件时使用的默认字符集编码。可以按语言对此项进行配置。
+        "files.encoding": "utf8",
+    },
+    "[javascript]":{
+        // 在读取和写入文件时使用的默认字符集编码。可以按语言对此项进行配置。
+        "files.encoding": "utf8",
+    },
+    // python 解释器
+    "python.pythonPath": "C:\\Envs\\book\\Scripts\\python.exe",
+    "python.autoComplete.extraPaths": [
+        "C:/Program Files (x86)/Google/google_appengine",
+        "C:/Program Files (x86)/Google/google_appengine/lib/flask-0.12"
+    ],
+    // 控制是否淡化未使用的代码。
+    "editor.showUnused": true,
+    // 控制行高。为 0 时则通过字体大小自动计算。
+    "editor.lineHeight": 22,
+    // 控制字母间距(像素)。
+    "editor.letterSpacing": 1,
+    // 控制编辑器是否在左括号后自动插入右括号。
+    "editor.autoClosingBrackets": "always",
+    // 控制编辑器是否在左引号后自动插入右引号。
+    "editor.autoClosingQuotes": "always",
+    // 控制光标的动画样式。
+    "editor.cursorBlinking": "smooth",
+    // 控制是否启用平滑插入动画。
+    "editor.cursorSmoothCaretAnimation": true,
+    // 在重新打开已关闭的文本编辑器时，还原最后一个视图的状态 (如滚动位置)。
+    "workbench.editor.restoreViewState": true,
+    // 替代当前所选颜色主题中的编辑器语法颜色和字形。
+    "editor.tokenColorCustomizations": {
+        // 注释部分
+        "comments": {
+            "fontStyle": "",
+            "foreground": "#7f848e",
+        },
+        "keywords": "#e46084",     // 关键字
+        "numbers": "#7e89df",      // 数字
+        "variables": "#f47c3e",    // 参数
+        "types": "#da3838de",      // 类型定义
+        // "strings": "#fbca45",      // 字符串
+        // "functions": "#78d783",    // 函数
+    },
+    
+    // 控制是否在键入时自动显示建议。
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+        "strings": true
+    },
+    // 控制调试控制台中的字体系列。
+    "debug.console.fontFamily": "default",
+    // 控制字体系列。
+    // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "JetBrains Mono NL, 'Courier New', monospace",
+	// 配置字体连字或字体特性。可以是用于启用/禁用连字的布尔值，或用于设置 CSS "font-feature-settings" 属性值的字符串。
+	"editor.fontLigatures": false,
+	// 控制字体大小(像素)。
+	"editor.fontSize": 14,
+	// 控制字体粗细。接受关键字“正常”和“加粗”，或者接受介于 1 至 1000 之间的数字。
+	"editor.fontWeight": "300",
+
+    // 指定工作台中使用的文件图标主题；若指定为 "null"，则不显示任何文件图标。
+	//  - null: 无文件图标
+	//  - vs-minimal
+	//  - vs-seti
+    "workbench.iconTheme": "vs-seti",
+
+    // flake8 的配置
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    // Severity of Flake8 message type 'E'.
+	"python.linting.flake8CategorySeverity.E": "Information",
+	// Severity of Flake8 message type 'F'.
+	"python.linting.flake8CategorySeverity.F": "Error",
+	// Severity of Flake8 message type 'W'.
+    "python.linting.flake8CategorySeverity.W": "Hint",
+    "editor.snippetSuggestions": "bottom",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    
+	// 设置部分代码为斜体
+    "oneDarkPro.italic": true,
+	// 设置色彩为 vivid
+    "oneDarkPro.vivid": true,
+    "python.analysis.extraPaths": [
+        "C:/Program Files (x86)/Google/google_appengine",
+        "C:/Program Files (x86)/Google/google_appengine/lib/flask-0.12"
+    ],
+    
+}
